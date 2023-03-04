@@ -42,25 +42,3 @@ p{
     margin-bottom: 15px;
 }
 
-a:link, a:visited {
-    background-color: #f44336;
-    color: white;
-    padding: 5px 10px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    border-radius: 10px;
-  }
-  
-  a:hover, a:active {
-    background-color: rgb(63, 133, 100);
-    transition:.5s;
-  }
-  .menu{
-    padding: 10px 0;
-    text-align: center;
-  }
-  .header{
-    text-align: center;
-    color: #fff;
-  }
