@@ -1,0 +1,23 @@
+
+$primary-color: #007bff;
+$secondary-color: #6c757d;
+
+
+.example {
+
+  .title {
+    color: $primary-color;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  &.title-main {
+    background-color: $secondary-color;
+    color: rgb(247, 160, 160);
+  }
+}

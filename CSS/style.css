@@ -1,0 +1,13 @@
+.example .title {
+  color: #007bff;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.example p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+.example .title-main {
+  background-color: #6c757d;
+  color: rgb(247, 160, 160);
+}
