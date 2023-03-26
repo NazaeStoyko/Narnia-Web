@@ -1,0 +1,109 @@
+/* .navbar ul {
+    display: none;
+}
+
+.navbar li:hover ul {
+    display: block;
+    background-color: Orange;
+    
+}
+
+.navbar * {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    display: block;
+    height: 40px;
+    line-height: 40px;
+}
+
+.navbar {
+    font-family: Verdana;
+    background: CornflowerBlue;
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar li {
+    position: relative;
+}
+
+.navbar li a {
+    display: table-cell;
+    min-width: 200px;
+    text-align: center;
+    color: White;
+    text-decoration: none;
+} */
+
+.navbar ul {
+    display: none;
+}
+
+.navbar li:hover ul {
+    display: block;
+    background-color: Orange;
+    transition: top 0.5s ease;
+    top: 40px;
+}
+
+.navbar * {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    display: block;
+    height: 40px;
+    line-height: 40px;
+}
+
+.navbar {
+    font-family: Verdana;
+    background: CornflowerBlue;
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar li {
+    position: relative;
+}
+
+.navbar li a {
+    display: table-cell;
+    min-width: 200px;
+    text-align: center;
+    color: White;
+    text-decoration: none;
+    transition: background-color 0.2s ease;
+}
+
+.navbar li a:hover {
+    background-color: lightblue;
+}
+
+.navbar li ul {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200px;
+    background-color: Orange;
+    transition: top 0.5s ease;
+}
+
+.navbar li ul li {
+    height: 40px;
+    line-height: 40px;
+}
+
+.navbar li ul li a {
+    display: block;
+    min-width: 200px;
+    text-align: center;
+    color: White;
+    text-decoration: none;
+}
